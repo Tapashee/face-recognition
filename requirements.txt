@@ -1,0 +1,6 @@
+# Initial dependencies (Day 1)
+# Will be updated as project progresses
+numpy
+opencv-python
+matplotlib
+scikit-learn
