@@ -27,6 +27,9 @@ This project aims to address these challenges and improve recognition performanc
 - Evaluate performance under real-world conditions
 - Analyze limitations and possible improvements
 
+## Project Pipeline
+Image -> Face Detection -> Face alignment -> Embedding -> Recognition
+
 ## Tech Stack
 - Python
 - OpenCV
