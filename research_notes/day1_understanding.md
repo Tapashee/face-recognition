@@ -24,4 +24,30 @@ Evaluates the angle between two vectors. A smaller angle (or higher cosine value
 ### Machine Learning Methods: 
 Algorithms such as Support Vector Machines (SVM) and K-Nearest Neighbors (K-NN) can also be used for classification and matching.
 
-# Why is face recognition with aging or appearance chage is difficult?
+# Why is face recognition difficult with appearance change?
+Face recognition systems often struggle when a person’s appearance changes over time. These changes can significantly affect the accuracy of the model because facial features are not always constant. Appearance of a person can change in following ways:
+- Aging
+- Change in looks (caused by weight change, accessories, hair style, makeup, facial expression) 
+- Lighting conditions
+- Pose variations
+
+## Aging Effects
+- Facial structure changes over time
+- Skin texture gradually evolves
+- Wrinkles develop and become more prominent
+- Skin may sag with age
+- Facial contours can shift or lose definition
+
+These changes directly impact facial feature representations (feature vectors) used for identification. As a result, the model may find it more difficult to accurately recognize the same individual over time.
+
+## Looks Variation Effects
+Changes in appearance can also make recognition challenging, including:
+
+- Hairstyles (e.g., long hair vs short hair vs bald head)
+- Facial hair (beard, mustache)
+- Makeup
+- Accessories (glasses, hats, masks)
+
+These variations can partially obscure or modify key facial features.
+
+## Lighting & Environment Effects
