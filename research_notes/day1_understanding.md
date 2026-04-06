@@ -3,10 +3,10 @@ Face recognition is the process of verifying a person's identity based on unique
 
 Face detection -> Face alignment -> Embedding -> Matching
 
-## Face Detection:
+## Face Detection
 Face detection is the initial step in the process, where the system identifies and locates human faces within an image or video frame. This step isolates the facial region from the background, enabling further processing.
 
-## Alignment:
+## Alignment
 Face alignment standardizes the orientation and positioning of detected faces to ensure consistency across the dataset. This includes correcting variations such as rotation, tilt, and scale. By transforming faces into a normalized and properly aligned format, this step reduces discrepancies caused by pose, lighting conditions, and facial expressions, thereby improving the robustness and accuracy of the model.
 
 ## Embedding
@@ -27,7 +27,7 @@ Algorithms such as Support Vector Machines (SVM) and K-Nearest Neighbors (K-NN) 
 # Why is face recognition difficult with appearance change?
 Face recognition systems often struggle when a person’s appearance changes over time. These changes can significantly affect the accuracy of the model because facial features are not always constant. Appearance of a person can change in following ways:
 - Aging
-- Change in looks (caused by weight change, accessories, hair style, makeup, facial expression) 
+- Looks variation (caused by weight change, accessories, hair style, makeup, facial expression) 
 - Lighting conditions
 - Pose variations
 
@@ -42,7 +42,6 @@ These changes directly impact facial feature representations (feature vectors) u
 
 ## Looks Variation Effects
 Changes in appearance can also make recognition challenging, including:
-
 - Hairstyles (e.g., long hair vs short hair vs bald head)
 - Facial hair (beard, mustache)
 - Makeup
@@ -50,4 +49,9 @@ Changes in appearance can also make recognition challenging, including:
 
 These variations can partially obscure or modify key facial features.
 
-## Lighting & Environment Effects
+## Lighting Condition Effects
+Different lighting conditions can change how facial features appear in an image. Shadows, brightness, and contrast variations may distort important details used for recognition.
+
+## Pose Variation Effects
+Variations in head position (side view, tilted face) and facial expressions (smiling, frowning) can affect how features are captured and interpreted.
+
