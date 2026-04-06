@@ -3,6 +3,3 @@ venv/
 
 # data
 data/
-
-# python
-organize_fgnet.py
