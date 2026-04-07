@@ -12,7 +12,7 @@
 - Added `.gitignore` to avoid pushing large files like `data/` and the virtual environment `venv/`.
 
 ## Day 3
-- Updated requirements.txt
+- Updated `requirements.txt`
 - installed all 3rd party packages mentioned in requirements.txt using `pip install -r requirements.txt`
-- Visualized **fgnet** images using `matplotlib`
+- Visualized **FGNET** images using `matplotlib`
 
