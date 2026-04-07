@@ -21,7 +21,3 @@ def load_dataset(data_dir):
 if __name__ == "__main__":
     DATA_DIR = "data/raw_data/fgnet"
     dataset = load_dataset(DATA_DIR)
-
-# Print number of images per person
-for person, images in dataset.items():
-    print(person, "->", len(images), "images")
