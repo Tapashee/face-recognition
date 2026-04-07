@@ -3,3 +3,6 @@ venv/
 
 # data
 data/
+
+# python
+__pycache__/
