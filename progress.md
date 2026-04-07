@@ -11,3 +11,8 @@
 - Created a data loader to convert the **FGNET** dataset into Python objects for easy use in the ML pipeline.
 - Added `.gitignore` to avoid pushing large files like `data/` and the virtual environment `venv/`.
 
+## Day 3
+- Updated requirements.txt
+- installed all 3rd party packages mentioned in requirements.txt using `pip install -r requirements.txt`
+- Visualized **fgnet** images using `matplotlib`
+

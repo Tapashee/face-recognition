@@ -32,8 +32,9 @@ Image -> Face Detection -> Face alignment -> Embedding -> Recognition
 
 ## Tech Stack
 - Python
-- OpenCV
-- FaceNet / ArcFace
-- NumPy / Matplotlib
+- **OpenCV:** Used for image processing and face detection
+- **FaceNet / ArcFace:** Used for converting face in to embeddings (feature vectors)
+- **NumPy:** Used for handling image arrays and embeddings
+- **Matplotlib:** Used for visualization
 - scikit-learn
 
