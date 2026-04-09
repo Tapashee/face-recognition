@@ -16,3 +16,7 @@
 - installed all 3rd party packages mentioned in requirements.txt using `pip install -r requirements.txt`
 - Visualized **FGNET** images using `matplotlib`
 
+## Day 4
+- Implemented face detection using Haar Cascade (OpenCV)
+- Detected faces from images in the dataset
+- Cropped and saved detected face regions into processed dataset
