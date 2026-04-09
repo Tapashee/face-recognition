@@ -1,10 +1,11 @@
 import os
 
-def load_dataset(data_dir):
+def load_dataset():
+    DATA_DIR = os.path.join("data", "raw_data", "fgnet")
     dataset = {}
 
-    for person in os.listdir(data_dir):
-        person_path = os.path.join(data_dir, person)
+    for person in os.listdir(DATA_DIR):
+        person_path = os.path.join(DATA_DIR, person)
         
         if not os.path.isdir(person_path):
             continue
@@ -19,5 +20,4 @@ def load_dataset(data_dir):
     return dataset
 
 if __name__ == "__main__":
-    DATA_DIR = "data/raw_data/fgnet"
-    dataset = load_dataset(DATA_DIR)
+    dataset = load_dataset()
